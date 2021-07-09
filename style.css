@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wraper {
+    max-width: 1024px;
+    margin: auto;
+    /*border: 1px solid #000000;*/
+}
+
+hr {
+    width: 100%;
+}
+
+img {
+    width: 50%;
+
+}
+
+.contact, .projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills {
+    width: 70%;
+    
+}
+
+.skills dd {
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: #e8e8e8;
+}
+  
+.skills-level {
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4470c4;
+    padding: 10px;
+}
+  
+.skills-level-ok {
+    background-color: #47bb52;
+}
+
+li {
+      padding: 10px;
+}
+
+.calculator {
+    background: url('/img/calc.jpg');   
+}
+
+.coffee {
+    background: url('/img/coffee.jpg');   
+}
+
+.calculator, .coffee {
+      background-size: cover;
+  }
+
+
+.projects a {
+      color: white;
+      font-size: 22px;
+      text-decoration: none;
+      padding-top: 9%;
+      text-align: center;
+      width: 300px;
+      height: 200px
+}
+
+footer {
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+}
+
+footer div {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+footer a:visited {
+    color:black;
+    
+}
+
+footer img {
+    width: 40px;
+    margin-right: 10px
+}
