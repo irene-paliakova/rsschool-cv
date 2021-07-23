@@ -9,7 +9,6 @@ a {
 .wraper {
     max-width: 1024px;
     margin: auto;
-    /*border: 1px solid #000000;*/
 }
 
 hr {
@@ -17,25 +16,23 @@ hr {
 }
 
 img {
-    width: 50%;
+    width: 70%;
 
+}
+
+li {
+    list-style-type: none;
 }
 
 .contact, .projects {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .skills {
     width: 70%;
     
-}
-
-.skills dd {
-    margin: 0;
-    margin-bottom: 10px;
-    background-color: #e8e8e8;
 }
   
 .skills-level {
@@ -55,11 +52,11 @@ li {
 }
 
 .calculator {
-    background: url('/img/calc.jpg');   
+    background: url('../img/calc.jpg');   
 }
 
 .coffee {
-    background: url('/img/coffee.jpg');   
+    background: url('../img/coffee.jpg');   
 }
 
 .calculator, .coffee {
