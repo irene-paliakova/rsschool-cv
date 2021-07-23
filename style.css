@@ -52,11 +52,11 @@ li {
 }
 
 .calculator {
-    background: url('../img/calc.jpg');   
+    background: url('./img/calc.jpg');   
 }
 
 .coffee {
-    background: url('../img/coffee.jpg');   
+    background: url('./img/coffee.jpg');   
 }
 
 .calculator, .coffee {
